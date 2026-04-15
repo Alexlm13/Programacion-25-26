@@ -11,6 +11,9 @@ public abstract class Vehiculo {
         vehiculosCreados++;
     }
 
+    //METODO ANDAR
+    public abstract void andar();
+
     //GETTERS y SETTERS
     public static int getVehiculosCreados() {
         return vehiculosCreados;
