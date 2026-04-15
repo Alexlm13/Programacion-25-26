@@ -12,6 +12,7 @@ public class Bicicleta extends Vehiculo{
     }
 
     //METODO ANDAR
+    @Override
     public void andar(){
         System.out.println("¿Cuántos km quieres que avance?");
         avanza=entrada.nextDouble();
